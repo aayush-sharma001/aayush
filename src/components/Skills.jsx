@@ -5,6 +5,7 @@ import {
 	SiJavascript, SiElectron, SiJest, SiMailgun, SiTrello, SiMixpanel,
 	SiCplusplus, SiOpenai, SiPython, SiTypescript, SiDocker,
 	SiFigma,
+	SiPostman,
 } from "react-icons/si";
 
 const skills = {
@@ -36,7 +37,11 @@ const skills = {
 		{ name: "Jest", icon: <SiJest className="text-red-400" />, level: 85 },
 		{ name: "Electron", icon: <SiElectron className="text-gray-400" />, level: 70 },
 		{ name: "Mailgun", icon: <SiMailgun className="text-red-500" /> },
-		{ name: "Figma", icon: <SiFigma className='' /> }
+		{ name: "Figma", icon: <SiFigma className='' /> },
+		{ name: "ChatGpt", icon: <SiOpenai class =''/> },
+		{ name: "Mixpanel", icon: <SiMixpanel className="text-blue-400"/>},
+		{ name: "Postman", icon: <SiPostman class='text-orange-500'/>},
+		{ name: "Github", icon: <SiGithub className='text-black-700'/>}
 	]
 };
 

@@ -14,7 +14,7 @@ const Footer = () => {
 
 					<div className="flex space-x-6">
 						<a
-							href="https://github.com/yourusername"
+							href="https://github.com/aayush-sharma001"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-600 transition-colors"
@@ -23,7 +23,7 @@ const Footer = () => {
 							<FaGithub className="text-xl" />
 						</a>
 						<a
-							href="https://linkedin.com/in/yourprofile"
+							href="https://linkedin.com/in/aayush-sharma001"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-blue-500 transition-colors"
@@ -32,7 +32,7 @@ const Footer = () => {
 							<FaLinkedin className="text-xl" />
 						</a>
 						<a
-							href="https://twitter.com/yourprofile"
+							href="https://twitter.com/sparkyaayush"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-sky-500 transition-colors"
@@ -41,7 +41,7 @@ const Footer = () => {
 							<FaTwitter className="text-xl" />
 						</a>
 						<a
-							href="mailto:your@email.com"
+							href="mailto:aayush001sharma@gmail.com"
 							className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-red-500 transition-colors"
 							aria-label="Email"
 						>
@@ -52,7 +52,6 @@ const Footer = () => {
 
 				<div className="mt-12 pt-6 border-t border-gray-800 text-center text-gray-500 text-sm">
 					<p>© {new Date().getFullYear()} Aayush Sharma. All rights reserved.</p>
-					<p className="mt-2">Built with React, Next.js, and Tailwind CSS</p>
 				</div>
 			</div>
 		</footer>
