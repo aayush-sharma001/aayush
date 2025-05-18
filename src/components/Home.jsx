@@ -136,7 +136,7 @@ const Home = () => {
 						<FaTwitter className="text-xl" />
 					</a>
 					<a
-						href="/resume.pdf"
+						href="https://drive.google.com/file/d/11se-gZSPYu_PMwBs0e-cvjUUlwhgY9pT/view?usp=sharing"
 						download
 						className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-800 hover:bg-red-500 transition-all duration-300 hover:scale-110"
 						aria-label="Download Resume"
